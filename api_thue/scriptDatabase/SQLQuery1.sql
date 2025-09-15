@@ -1,0 +1,9 @@
+CREATE TABLE thongTinDoanhNghiep (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    MaSoThue VARCHAR(20) NOT NULL,
+    TenNguoiNopThue NVARCHAR(255) NULL,
+    DiaChi NVARCHAR(255) NULL,
+    QuanLyThue NVARCHAR(255) NULL,
+    TrangThaiMST NVARCHAR(255) NULL,
+);
+GO
